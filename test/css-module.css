@@ -1,0 +1,23 @@
+@value small from "travix-breakpoints/variables.css";
+
+.container {
+  align-items: center;
+  background: url('grayImage.png') no-repeat;
+  display: flex;
+  height: 100px;
+  width: 0.5em;
+}
+
+.containerGreen {
+  composes: container;
+  background: url('greenImage.png') no-repeat;
+}
+
+.useSomeGlobal {
+  composes: u-whatever from global;
+  composes: global(u-whatsoever);
+}
+
+:global(.icon) :local(.arrow) .arrowIcon :global(.icon-arrow) {
+  display: block;
+}

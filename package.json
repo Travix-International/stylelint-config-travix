@@ -1,0 +1,41 @@
+{
+  "name": "stylelint-config-travix",
+  "version": "1.0.0",
+  "description": "Stylelint config for Travix",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint ./",
+    "eslint": "eslint"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Travix-International/stylelint-config-travix.git"
+  },
+  "keywords": [
+    "stylelint",
+    "lint"
+  ],
+  "author": {
+    "name": "Travix International",
+    "url": "https://travix.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Travix-International/stylelint-config-travix/issues"
+  },
+  "homepage": "https://github.com/Travix-International/stylelint-config-travix#readme",
+  "dependencies": {
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-order": "^0.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "eslint": "^4.7.2",
+    "eslint-config-travix": "^3.0.0",
+    "stylelint": "^8.1.1"
+  }
+}

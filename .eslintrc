@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "travix/rules/best-practices",
+    "travix/rules/errors",
+    "travix/rules/node",
+    "travix/rules/style",
+    "travix/rules/variables",
+    "travix/rules/es6"
+  ],
+  "env": {
+      "browser": false,
+      "node": true
+  }
+}
