@@ -30,7 +30,7 @@
   "homepage": "https://github.com/Travix-International/stylelint-config-travix#readme",
   "dependencies": {
     "stylelint-config-standard": "^17.0.0",
-    "stylelint-order": "^0.7.0"
+    "stylelint-order": "^1.0.0"
   },
   "devDependencies": {
     "ava": "^0.22.0",
